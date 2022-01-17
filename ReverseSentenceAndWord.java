@@ -45,7 +45,7 @@ public class ReverseSentenceAndWord {
 
          for(String word:revwords){
  
-            if(word.length()==skip){
+            if(word.length()<=skip){
  
                 revWord=revWord+word+" ";
   
@@ -74,7 +74,7 @@ public class ReverseSentenceAndWord {
   
        }
          
- System.out.println("Final Output");
+         System.out.println("Final Output");
 
          System.out.println(revWord);
  
